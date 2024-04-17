@@ -1,0 +1,126 @@
+body{
+    color: rgb(255, 240, 240);
+    background: rgb(165, 158, 158);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 1100px;
+}
+ p{
+    color: black;
+ }
+ header{
+    color: rgb(7, 7, 6);
+    background: whitesmoke;
+    padding: 100px 100px 100px 100px;
+    text-align:justify;
+    background-image: url("videos/OIP.jpg");
+    background-size: 700px ;
+    background-position: center;
+    
+ }
+ header.mobile{
+  display: none;
+
+ }
+ figcaption{
+  text-transform: uppercase;
+  
+ }
+ img{
+  background-size: 100px;
+  padding: 40px;
+  width: 250px;
+  height: 200px;
+  border-radius: 20%;
+  box-shadow: gray 0 0 10px;
+  border:1px solid white;
+ }
+  header .logo{
+    background-image: url("videos/Untitled\ design\ \(3\).png");
+    background-size: 100px; 
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: -30px;
+    display:inline-block;
+    text-indent: -99999999999px;
+  }
+  button{
+    background:brown;
+    border: none;
+    color:aqua;
+
+  }
+  footer{
+    background: gold;  
+  }
+  div{
+    background:burlywood ;
+    color: brown;
+    width: 100px;
+    margin: auto;
+ 
+
+
+  }
+  section{
+    background: rgb(32, 7, 7);
+    color: rgb(68, 64, 64);
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+  }
+  ul{
+     margin: 0;
+     padding:0;
+     list-style-type: none;
+  }
+  li{
+    display: inline-block;
+    margin: 20px;
+  }
+    @media screen and (max-width:715px) {
+      header{
+        height: 200px;
+        background-position: 0 -50px;
+      }
+      header.mobile{
+        display: inline-block;
+      }
+        header.deskop{
+          display: none;
+        }
+    }
+    @media screen and (max-width:715px) {
+      header{
+        height: 200px;
+        background-position: 0 -0px;
+        }
+      }
+  footer{
+   padding: 5% 5%;
+   background: black;
+   color:grey;
+   text-align:center;
+   font-size: 12px;
+
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .features { 
+      background-color:aquamarine
+    }
+    
+  }
+  @media screen and (max-width: 400px) {
+    .features { 
+      background-color: blanchedalmond;
+    }
+    
+  }
+ 
+  
