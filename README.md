@@ -15,7 +15,7 @@ Clone the repository:
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/hotel-html-css.git
+git clone https://github.com/Mphumza/Hotel-lounges.git
 cd hotel-html-css
 Open index.html in any web browser.
 🚀 Future Enhancements
